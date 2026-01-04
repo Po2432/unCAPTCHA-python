@@ -2,7 +2,7 @@
 name: Bug Report
 description: Report a bug in unCAPTCHA-python
 title: "[Bug]: "
-labels: ["type: bug"]
+labels: ["type: bug", "status: needs triage"]
 assignees:
   - po2432
 
