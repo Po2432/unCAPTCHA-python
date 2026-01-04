@@ -1,16 +1,18 @@
 # Security Policy
-# THIS IS A GITHUB TEMPLATE - REAL SECURITY POLICY COMING SOON
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+- ✅: This version will continue getting security updates.
+- :x:: This version will not get security updates.
+- ⚠️: This version will only get major security updates.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+**IMPORTANT:** Most older versions are not going to be actively maintained.
+
+
+
+| Version | Supported          |Notes|
+| ------- | ------------------ |-----|
+| 0.1.x   | :white_check_mark: |-|
+
 
 ## Reporting a Vulnerability
 
