@@ -1,0 +1,90 @@
+# .github/ISSUE_TEMPLATE/bug_report.yml
+name: Bug Report
+description: Report a bug in unCAPTCHA-python
+title: "[Bug]: "
+labels: ["type: bug"]
+assignees:
+  - po2432
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug!  
+        ⚠️ Please do not use this form for security vulnerabilities.  
+        Report those privately via [Security Advisories](https://github.com/Po2432/unCAPTCHA-python/security/policy).
+
+  - type: input
+    id: python_version
+    attributes:
+      label: Python Version
+      description: e.g. 3.10.12
+      placeholder: "3.x.x"
+    validations:
+      required: true
+
+  - type: input
+    id: flask_version
+    attributes:
+      label: Flask Version
+      description: e.g. 2.2.5
+      placeholder: "x.x.x"
+    validations:
+      required: true
+
+  - type: input
+    id: uncaptcha_version
+    attributes:
+      label: unCAPTCHA Version
+      description: Version of unCAPTCHA-python you are using
+      placeholder: "0.1.x"
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: Which browser you used (e.g. Chrome, Firefox)
+      placeholder: "Chrome"
+    validations:
+      required: true
+
+  - type: input
+    id: browser_version
+    attributes:
+      label: Browser Version
+      description: Optional — version of the browser
+      placeholder: "120.0.6099.71"
+    validations:
+      required: false
+
+  - type: input
+    id: hosting_provider
+    attributes:
+      label: Server Hosting Provider
+      description: e.g. AWS, Heroku, DigitalOcean
+      placeholder: "AWS"
+    validations:
+      required: false
+
+  - type: textarea
+    id: bug_details
+    attributes:
+      label: What is the bug?
+      description: Describe what the bug is, what it affects, and any error messages.
+      placeholder: "The application crashes when..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: Steps to Reproduce
+      description: Provide clear steps so we can reproduce the issue.
+      placeholder: |
+        1. Run command ...
+        2. Open page ...
+        3. Observe error ...
+    validations:
+      required: true
