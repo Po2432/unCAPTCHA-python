@@ -1,0 +1,6 @@
+# .github/ISSUE_TEMPLATE/config.yml
+blank_issues_enabled: true
+contact_links:
+  - name: 🔒 Security Vulnerability Reporting
+    url: https://github.com/Po2432/unCAPTCHA-python/blob/main/SECURITY.md
+    about: Please read these guidelines to report security vulnerabilities. Do NOT open a public issue.
