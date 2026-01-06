@@ -130,5 +130,8 @@ You can configure the behavior using HTML attributes on the script tag:
 ## 📄 License
 
 Distributed under the Po2432's Source Available License 1.0.
-> "Freedom is the right to tell people what they do not want to hear." - George Orwell
+> "Freedom is the right to tell people what they do not want to hear."
+>
+> — George Orwell
+
 **unCAPTCHA was built to stop large companies monetizing basic protection.**
