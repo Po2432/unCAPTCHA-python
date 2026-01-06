@@ -1,7 +1,7 @@
 # unCAPTCHA Python
 ![python logo](https://www.python.org/static/community_logos/python-powered-w-140x56.png)
 
-
+# ⚠️THIS CAPTCHA HAS MANY VULNERABILITIES AND COULD BE REWRITTEN - USE ON YOUR OWN RISK :warning:
 **unCAPTCHA** is a privacy-first, fully self-hosted, and source-available CAPTCHA solution.
 It uses a unique **"Hybrid Architecture"**:
 1.  **The Brain (Backend):** Runs locally on **your** server (Python). No user data ever leaves your machine.
